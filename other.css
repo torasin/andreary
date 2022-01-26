@@ -7,13 +7,10 @@
 }
 
 .p1 {
-    font-family: 'brush', sans-serif;
-    font-size: 70;
-    text-align: center;
-}
-@font-face {
     font-family: 'brush';
     font-style: normal;
     font-weight: 400;
     src: local('brush'), url('https://fonts.cdnfonts.com/s/22216/brush.woff') format('woff');
+    font-size: 70;
+    text-align: center;
 }
