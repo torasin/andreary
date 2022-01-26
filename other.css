@@ -1,0 +1,13 @@
+#head {
+    border: 2px solid black;
+    padding: 25px;
+    background: url(extremely-wide-panorama-landscape-smoky-260nw-790687765.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.p1 {
+    font-family: 'permanent marker', cursive;
+    font-size: 70;
+    text-align: center;
+}
