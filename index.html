@@ -1,0 +1,46 @@
+<html>
+<title>M.Andre Aria Saputra</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="w3.css">
+<link rel="stylesheet" href="http://fonts.cdnfonts.com/css/brush">
+<link rel="stylesheet" href="other.css">
+<head>
+<div id="head">
+<h1 class="p1">CAT BREEDS THAT IS SO FLUFFY</h1>
+</div>
+</head>
+<body>
+<div class="w3-bar w3-black">
+<button class="w3-bar-item w3-button" onclick="cat('MAINE-COON')">Maine Coon</button>
+<button class="w3-bar-item w3-button" onclick="cat('RAGDOLL')">Ragdoll</button>
+<button class="w3-bar-item w3-button" onclick="cat('PERSIAN')">Persian</button>
+<button class="w3-bar-item w3-button" onclick="cat('NORWEGIAN-FOREST-CAT')">Norwegian Forest Cat</button>
+</div>
+<div id="MAINE-COON" class="w3-container cat" style="display:none">
+<h2>Maine Coon</h2>
+<img src="maine-coon.jpg" class="w3-animate-fading" alt="maine-Coon" style="width: 700px;">
+</div>
+<div id="RAGDOLL" class="w3-container cat" style="display:none">
+<h2>Ragdoll</h2>
+<img src="Ragdoll.jpg" class="w3-animate-bottom" alt="ragdoll" style="width: 700px;">
+</div>
+<div id="PERSIAN" class="w3-container cat" style="display:none">
+<h2>Tasik</h2>
+<img src="Persian.jpg" class="w3-animate-top" alt="persian" style="width: 700px;">
+</div>
+<div id="NORWEGIAN-FOREST-CAT" class="w3-container cat" style="display:none">
+<h2>Norwegian forest cat</h2>
+<img src="norwegian-forest-cat.jpg" class="w3-animate-zoom" alt="norwegian-forest-cat" style="width: 700px;">
+</div>
+<script>
+function cat(NamaBreeds) {
+var i;
+var x = document.getElementsByClassName("cat");
+for (i = 0; i < x.length; i++) {
+x[i].style.display = "none"; 
+}
+document.getElementById(NamaBreeds).style.display = "block"; 
+}
+</script>
+</body>
+</html>
